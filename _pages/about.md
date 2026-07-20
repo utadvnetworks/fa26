@@ -1,7 +1,7 @@
 ---
 layout: about
 permalink: /
-title: Welcome to Adv. Topics in Computer Networks, Fall 2024 Edition!
+title: Welcome to Adv. Topics in Computer Networks, Fall 2026 Edition!
 description: CS 395T Advanced Topics in Computer Networks - University of Texas at Austin
 logo:
 news: true
@@ -46,9 +46,9 @@ computer networks or networked systems.
 
 ---
 
-- **Unique number:** 50875
-- **Time:** Tuesday & Thursday 3:30 PM - 5:00 PM
-- **Location:** GDC 1.406
-- **Discussion:** [Ed discussion](https://edstem.org/us/courses/61972){:target="\_blank"}
+- **Unique number:** 55735
+- **Time:** Tuesday & Thursday 9:30 AM - 11:00 AM
+- **Location:** GDC 6.202
+- **Discussion:** [Ed discussion](https://edstem.org/us/courses/100553/){:target="\_blank"}
 
 ---

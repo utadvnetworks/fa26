@@ -11,7 +11,7 @@ title: Logistics
 
 ### Communication
 
-[Ed discussion](https://edstem.org/us/courses/61972/) is intended for all announcements, general questions about the course, clarifications about assignments, student questions to each other, discussions about the material, and so on.
+[Ed discussion](https://edstem.org/us/courses/100553/) is intended for all announcements, general questions about the course, clarifications about assignments, student questions to each other, discussions about the material, and so on.
 
 ---
 
@@ -19,9 +19,9 @@ title: Logistics
 
 **Paper reading response**
 <br/>
-The reading list is posted on the [schedule](/fa24/schedule) page. You are required to
+The reading list is posted on the [schedule]({{ '/schedule/' | relative_url }}) page. You are required to
 post a response to [Ed
-discussion](https://edstem.org/us/courses/61972/) by 11:59PM the day
+discussion](https://edstem.org/us/courses/100553/) by 11:59PM the day
 before the class. The response include a short summary of each paper, and your
 opinion of the paper.
 
@@ -46,7 +46,7 @@ in-class final presentation.
 - In-class paper discussion leadership (20%)
 - Research project with a final presentation and report (50%)
 - In-class participation (10%)
-- Grades will be uploaded to [Canvas](https://utexas.instructure.com/courses/1402239).
+- Grades will be uploaded to [Canvas](https://utexas.instructure.com/courses/1451702).
 
 #### Letter grade assignments
 

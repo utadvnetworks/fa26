@@ -29,13 +29,13 @@ In your proposal, include three types of goals: 75% goals, 100% goals, and 125% 
 
 Consider also providing answers to the [Heilmeier Questions](https://www.darpa.mil/work-with-us/heilmeier-catechism) in your proposal, as appropriate.
 
-Please use the ACM HotNets [Latex template](https://conferences.sigcomm.org/hotnets/2024/docs/hotnets24-template.zip) for the proposal.
+Please use the ACM HotNets [Latex template](https://conferences.sigcomm.org/hotnets/2026/cfp.html) for the proposal.
 
 ---
 
 ### Midterm checkpoint meeting
 
-Each project team is required to schedule a checkpoint meeting with the instructor on Oct 25. The purpose of this meeting is to provide an early feedback on your progress to help ensure that your final report is great.
+Each project team is required to schedule a checkpoint meeting with the instructor on Oct 23. The purpose of this meeting is to provide an early feedback on your progress to help ensure that your final report is great.
 
 ---
 
@@ -44,13 +44,13 @@ Each project team is required to schedule a checkpoint meeting with the instruct
 Each project team is required to submit a final report and give a presentation at the end of the semester.
 The final report should be 6 pages long.
 
-Please use the ACM HotNets [Latex template](https://conferences.sigcomm.org/hotnets/2024/docs/hotnets24-template.zip) for the final report.
+Please use the ACM HotNets [Latex template](https://conferences.sigcomm.org/hotnets/2026/cfp.html) for the final report.
 
 ---
 
 ### Important dates
 
-- Proposal (2 pages): Sep 27.
-- In-class project presentation: Dec 3 and 5.
-- Final report (6 pages): Dec 6.
-- Please use the ACM HotNets [Latex template](https://conferences.sigcomm.org/hotnets/2024/docs/hotnets24-template.zip) for the proposal and final report.
+- Proposal (2 pages): Sep 25.
+- In-class project presentation: Dec 1 and 3.
+- Final report (6 pages): Dec 4.
+- Please use the ACM HotNets [Latex template](https://conferences.sigcomm.org/hotnets/2026/cfp.html) for the proposal and final report.
