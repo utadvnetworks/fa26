@@ -1,8 +1,8 @@
 ---
 layout: about
 permalink: /
-title: Welcome to Adv. Topics in Computer Networks, Fall 2026 Edition!
-description: CS 395T Advanced Topics in Computer Networks - University of Texas at Austin
+title: Welcome to Advanced Computer Networks, Fall 2026 Edition!
+description: CS 395T Advanced Computer Networks - University of Texas at Austin
 logo:
 news: true
 ---
