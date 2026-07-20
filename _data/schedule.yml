@@ -1,8 +1,4 @@
-- date:
-  lecturer:
-  title: >
-    <strong>Part 0: Introduction and Design Philosophy </strong>
-  logistics:
+- title: "Part 0: Introduction and Design Philosophy"
 
 - date: T 08/25
   lecturer:
@@ -58,11 +54,7 @@
   logistics:
   presenters:
 
-- date:
-  lecturer:
-  title: >
-    <strong>Part 1: Control Plane</strong>
-  logistics:
+- title: "Part 1: Control Plane"
 
 - date: T 09/08
   lecturer:
@@ -115,11 +107,7 @@
   logistics:
   presenters:
 
-- date:
-  lecturer:
-  title: >
-    <strong>Part 2: Data Plane</strong>
-  logistics:
+- title: "Part 2: Data Plane"
 
 - date: Th 09/17
   lecturer:
@@ -217,11 +205,7 @@
     - <a href="https://homes.cs.washington.edu/~arvind/papers/ipipe.pdf">[R]iPipe</a>
   logistics:
 
-- date:
-  lecturer:
-  title: >
-    <strong>Part 3: Resource Management</strong>
-  logistics:
+- title: "Part 3: Resource Management"
 
 - date: Th 10/08
   lecturer:
@@ -297,11 +281,7 @@
   presenters:
   logistics:
 
-- date:
-  lecturer:
-  title: >
-    <strong>Part 4: More Recent Topics</strong>
-  logistics:
+- title: "Part 4: More Recent Topics"
 
 - date: T 10/27
   lecturer:
@@ -384,11 +364,7 @@
     <strong>Buffer / TBD topic</strong>
   logistics:
 
-- date:
-  lecturer:
-  title: >
-    <strong>Project Weeks</strong>
-  logistics:
+- title: "Project Weeks"
 
 - date: T 11/17
   lecturer:
