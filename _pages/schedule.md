@@ -27,12 +27,24 @@ title: Schedule
     {% if lecture.recitation != blank %} 
     {% assign recitation_count = recitation_count | plus: 1 %}
     {%endif%}
-    {% if lecture.title contains 'No class' or lecture.title contains 'cancelled' or lecture.title contains 'Buffer' %}
+    {% if lecture.title contains 'No class' or lecture.title contains 'cancelled' or lecture.title contains 'Buffer' or lecture.quiz != blank %}
         {% assign skip_classes = skip_classes | plus: 1 %}
-        <td colspan="4" align="center">{{ lecture.title }}<p align="right">{{ lecture.logistics }}</p></td>
-    {% elsif lecture.quiz != blank %}
-        {% assign skip_classes = skip_classes | plus: 1 %}
-        <td colspan="4" align="center">{{ lecture.quiz }}<p align="right">{{ lecture.logistics }}</p></td>
+        <td colspan="3" style="text-align: center;">
+            {% if lecture.quiz != blank %}
+                {{ lecture.quiz }}
+            {% else %}
+                {{ lecture.title }}
+            {% endif %}
+        </td>
+        <td>
+            {% if lecture.logistics %}
+            <ul>
+            {% for logistic in lecture.logistics %}
+                <li>{{ logistic }}</li>
+            {% endfor %}
+            </ul>
+            {% endif %}
+        </td>
     {% else %}
     <td>
         {% if lecture.title %}

@@ -9,35 +9,38 @@ news: true
 
 ### Course Overview
 
-This is a graduate-level course on computer networking. In this course
-we will explore both classic and recent topics in computer networking. The
-objectives of this course are:
+This graduate-level course examines how modern computer networks are designed,
+programmed, accelerated, and scaled. We connect foundational networking
+principles with contemporary systems across the Internet, end hosts,
+datacenters, and large-scale AI infrastructure. Throughout the course, we will
+study both classic and recent research, with an emphasis on the design choices
+and performance tradeoffs behind real networked systems.
 
-- To understand the history of computer networking, state-of-the-art network protocols at various layers, network architectures, and networked systems.
+- To understand foundational networking principles and the roles of the control plane, data plane, and end hosts.
+- To analyze the design and performance of Internet, host, datacenter, and AI-cluster networks.
 - To critically review research papers in computer networking and networked systems.
 - To explore research problems and investigate new ideas through a semester-long research project.
 
-The course is structured around lectures by the instructor and paper
-readings/presentations by the students with open discussion. Students will form
-a project group (one or two students) and conduct a research project on
-computer networks or networked systems.
+The course combines instructor lectures, research-paper readings, and open
+in-class discussion. Students will form a project group of one or two and
+conduct a semester-long research project in computer networks or networked
+systems, culminating in a final report and presentation.
 
-### Reference books
+### References
 
-- [Computer Networks: Systems Approach](https://book.systemsapproach.org/){:target="\_blank"} (available online) by Larry Peterson and Bruce Davie
-- [Software-Defined Networks: A Systems Approach](https://sdn.systemsapproach.org/index.html){:target="\_blank"} (available online) by Larry Peterson, Carmelo Cascone, Brian O’Connor, Thomas Vachuska, and Bruce Davie
+- [CS 356 lecture notes](https://utcs356.github.io/sp26/schedule/){:target="_blank"} provides a reference and refresher for the networking fundamentals assumed in this course.
+- [Computer Networks: Systems Approach](https://book.systemsapproach.org/){:target="_blank"} (available online) by Larry Peterson and Bruce Davie
+- [Software-Defined Networks: A Systems Approach](https://sdn.systemsapproach.org/index.html){:target="_blank"} (available online) by Larry Peterson, Carmelo Cascone, Brian O’Connor, Thomas Vachuska, and Bruce Davie
 
 ### Topics
 
-- Network architectures
-- Inter-domain routing
-- Congestion control
-- Data centers
-- Software-defined networking
-- Programmable data plane
-- ML for networking
-- Application-layer networking (e.g., Service mesh)
-- Cellular network architecture
+- **Foundations:** network design principles and the end-to-end argument
+- **Network control plane:** inter-domain routing, software-defined networking, and network virtualization
+- **Network data plane:** router design, software routers, middleboxes, and programmable routers
+- **Host networking:** network-stack overheads, SmartNICs, kernel-bypass networking, and RDMA
+- **Datacenter networks:** fabrics, load balancing, transport, and packet scheduling
+- **Emerging interconnects:** Compute Express Link (CXL)
+- **Networking for AI systems:** AI datacenter topologies and fabrics, collective communication, and transport for AI clusters
 
 ### Prerequisites
 
