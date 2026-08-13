@@ -39,7 +39,7 @@ systems, culminating in a final report and presentation.
 - **Network data plane:** router design, software routers, middleboxes, and programmable routers
 - **Host networking:** network-stack overheads, SmartNICs, kernel-bypass networking, and RDMA
 - **Datacenter networks:** fabrics, load balancing, transport, and packet scheduling
-- **Emerging interconnects:** Compute Express Link (CXL)
+- **Emerging interconnects:** NVLink, UALink, and CXL
 - **Networking for AI systems:** AI datacenter topologies and fabrics, collective communication, and transport for AI clusters
 - **AI for networking:** applications of artificial intelligence to network design, operation, and management
 
