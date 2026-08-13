@@ -137,19 +137,13 @@
 
 - date: Th 10/29
   title: >
-    <strong>Packet Scheduling</strong>
-  readings:
-    - <a href="https://dl.acm.org/doi/pdf/10.1145/2740070.2626309">[R]FastPass</a>
-
-- date: T 11/03
-  title: >
     <strong>Emerging Interconnects</strong>
   readings:
     - <a href="https://arxiv.org/abs/2306.11227">[R]IntroCXL</a>
 
 - title: "Part 5: Networking for AI Systems"
 
-- date: Th 11/05
+- date: T 11/03
   title: >
     <strong>AI datacenter topology & fabrics</strong>
   readings:
@@ -158,28 +152,34 @@
     - <a href="https://doi.org/10.1145/3718958.3750503">ATOP</a>
     - <a href="https://people.csail.mit.edu/ghobadi/papers/rail_only_hoti_2024.pdf">RailOnly</a>
 
-- date: T 11/10
+- date: Th 11/05
   title: >
     <strong>Collective communication</strong>
   readings:
     - <a href="https://dl.acm.org/doi/10.1145/3651890.3672249">[R]TE-CCL</a>
     - <a href="https://arxiv.org/abs/2504.09014">[R]MSCCL++</a>
 
-- date: Th 11/12
+- date: T 11/10
   title: >
     <strong>Transport for AI clusters (1)</strong>
   readings:
     - <a href="https://engineering.fb.com/wp-content/uploads/2024/08/sigcomm24-final246.pdf">[R]MetaRoCE</a>
 
-- date: T 11/17
+- date: Th 11/12
   title: >
     <strong>Transport for AI clusters (2)</strong>
   readings:
     - <a href="https://arxiv.org/abs/2504.17307">[R]UCCL</a>
 
+- title: "Part 6: AI for Networking"
+
+- date: T 11/17
+  title: >
+    <strong>AI for networking (1)</strong>
+
 - date: Th 11/19
   title: >
-    <strong>Buffer</strong>
+    <strong>AI for networking (2)</strong>
 
 - title: "Project Weeks"
 

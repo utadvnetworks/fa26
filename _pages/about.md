@@ -41,6 +41,7 @@ systems, culminating in a final report and presentation.
 - **Datacenter networks:** fabrics, load balancing, transport, and packet scheduling
 - **Emerging interconnects:** Compute Express Link (CXL)
 - **Networking for AI systems:** AI datacenter topologies and fabrics, collective communication, and transport for AI clusters
+- **AI for networking:** applications of artificial intelligence to network design, operation, and management
 
 ### Prerequisites
 
