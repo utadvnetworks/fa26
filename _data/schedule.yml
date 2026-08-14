@@ -175,11 +175,23 @@
 
 - date: T 11/17
   title: >
-    <strong>AI for networking (1)</strong>
+    <strong>Learned Congestion Control</strong>
+  readings:
+    - <a href="https://dl.acm.org/doi/pdf/10.1145/2534169.2486020">[O]Remy</a>
+    - <a href="https://dl.acm.org/doi/pdf/10.1145/3387514.3405892">[R]Orca</a>
+  presenters:
+    - <a href="https://janecjy.github.io/">Jane</a>
 
 - date: Th 11/19
   title: >
-    <strong>AI for networking (2)</strong>
+    <strong>Learning from the Network</strong>
+  readings:
+    - <a href="https://www.usenix.org/system/files/nsdi20-paper-yan.pdf">[R]Fugu</a>
+    - <a href="https://www.usenix.org/system/files/nsdi23-alomar.pdf">[R]CausalSim</a>
+    - <a href="https://dl.acm.org/doi/pdf/10.1145/3651890.3672225">[O]Zoom2Net</a>
+    - <a href="https://www.usenix.org/system/files/nsdi26-chen-jiayi.pdf">[O]Unum</a>
+  presenters:
+    - <a href="https://janecjy.github.io/">Jane</a>
 
 - date: T 11/24
   quiz: >
