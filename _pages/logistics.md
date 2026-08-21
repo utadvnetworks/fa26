@@ -110,6 +110,17 @@ All submitted course materials, including reading responses, project code, repor
 
 Violations of academic integrity will be handled according to the [University of Texas policies and procedures](https://deanofstudents.utexas.edu/conduct/index.php).
 
+#### Course Artificial Intelligence Policy
+
+In accordance with the University’s [Institutional Rules on Student Services and Activities, Chapter 11](https://catalog.utexas.edu/general-information/appendices/appendix-c/student-conduct-and-academic-integrity/), students accept the responsibility to always uphold academic integrity and an honor code reflective of a scholarly community devoted to academic and personal success. All members of the University community are fully accountable and responsible for any output they produce as part of academic work. Students must also follow the [Texas Statement on Academic Integrity](https://www.utexas.edu/academics/texas-statement-academic-integrity) and avoid prohibited uses described in the University’s [Acceptable Use of Generative AI Tools](https://security.utexas.edu/ai-tools) guidance.
+
+In this course, **generative AI use is partially permitted**, subject to the following conditions:
+
+* **Paper reading responses and discussions:** You **may not use** generative AI to read, summarize, analyze, or interpret a paper, or to generate its key ideas, critiques, or discussion points; this intellectual work must be your own. You **may use** generative AI to check grammar and style, provided that it does not create or substantially rewrite the content.
+* **Course project:** You **may use** generative AI to assist with technical implementation, such as coding and debugging, but you remain responsible for understanding, reviewing, testing, and validating everything you submit. For project proposals, reports, and other written deliverables, you **may not use** generative AI to generate or substantially rewrite the substantive ideas, analysis, explanations, or prose; this work must be your own. You **may use** generative AI to check grammar and style.
+
+Whenever you use generative AI for permitted work, include a brief **AI Use Disclosure** with the submission that identifies the tool and explains what it was used for and how you reviewed its output. Using generative AI outside these conditions or failing to disclose its use may constitute academic misconduct under University rules.
+
 #### Services for Students with Disabilities
 
 The university is committed to providing an accessible and inclusive learning environment. If you encounter barriers to learning, please inform the instructor so we can work together to ensure that you have an equal opportunity to participate fully in the course.

@@ -4,6 +4,17 @@
 .page-heading {
   font-size: 20px;
 }
+
+// Keep anchored section headings visible below the fixed navigation bar.
+.post-content h1[id],
+.post-content h2[id],
+.post-content h3[id],
+.post-content h4[id],
+.post-content h5[id],
+.post-content h6[id] {
+  scroll-margin-top: $nav-height + 16px;
+}
+
 .contacticon {
   display: block;
   font-size: 60px;
