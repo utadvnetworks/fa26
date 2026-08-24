@@ -94,7 +94,10 @@
 - date: Th 10/01
   title: >
     <strong>Guest lecture: SmartNIC</strong>
+  readings:
     - <a href="https://www.usenix.org/system/files/conference/nsdi18/nsdi18-firestone.pdf">[R]AccelNet</a>
+  presenters:
+    - Mario Baldi (NVIDIA)
 
 - date: T 10/06
   title: >
