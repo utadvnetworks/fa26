@@ -19,12 +19,12 @@ and performance tradeoffs behind real networked systems.
 - To understand foundational networking principles and the roles of the control plane, data plane, and end hosts.
 - To analyze the design and performance of Internet, host, datacenter, and AI-cluster networks.
 - To critically review research papers in computer networking and networked systems.
-- To explore research problems and investigate new ideas through a semester-long research project.
+- To explore research problems and build useful networking systems through a semester-long course project.
 
 The course combines instructor lectures, research-paper readings, and open
 in-class discussion. Students will work individually or form a project group of up to three students and
-conduct a semester-long research project in computer networks or networked
-systems, culminating in a final report and presentation.
+complete either a research project or an open-source engineering project in
+computer networks or networked systems, culminating in a final report and presentation.
 
 ### References
 
@@ -39,7 +39,7 @@ systems, culminating in a final report and presentation.
 - **Network data plane:** router design, software routers, middleboxes, and programmable routers
 - **Host networking:** network-stack overheads, SmartNICs, kernel-bypass networking, and RDMA
 - **Datacenter networks:** fabrics, load balancing, transport, and packet scheduling
-- **Emerging interconnects:** NVLink, UALink, and CXL
+- **Emerging interconnects:** NVLink, Optics, and CXL
 - **Networking for AI systems:** AI datacenter topologies and fabrics, collective communication, and transport for AI clusters
 - **AI for networking:** applications of AI to network design, operation, and management
 
