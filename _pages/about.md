@@ -22,7 +22,7 @@ and performance tradeoffs behind real networked systems.
 - To explore research problems and investigate new ideas through a semester-long research project.
 
 The course combines instructor lectures, research-paper readings, and open
-in-class discussion. Students will form a project group of one or two and
+in-class discussion. Students will work individually or form a project group of up to three students and
 conduct a semester-long research project in computer networks or networked
 systems, culminating in a final report and presentation.
 

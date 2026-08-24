@@ -11,7 +11,7 @@ title: Projects
 
 ### Overview
 
-The course project may be completed individually or in a group of two. Each team will choose one of two tracks. Both tracks have the same expectations for technical depth, evaluation, documentation, and final presentation.
+The course project may be completed individually or in a group of up to three students. Each team will choose one of two tracks. Both tracks have the same expectations for technical depth, evaluation, documentation, and final presentation.
 
 #### Track 1: Research Project
 
