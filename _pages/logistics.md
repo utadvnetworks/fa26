@@ -28,19 +28,26 @@ To make office hours productive and fair for everyone:
 
 ### Course Organization
 
-#### Paper Reading Responses
+This course is a research seminar, so much of our class time will be devoted to reading and discussing research papers. The reading list is posted on the [schedule]({{ '/schedule/' | relative_url }}) page. Readings marked **[R]** are required, while readings marked **[O]** are optional. Discussion assignments will be made during the first week of the semester; each student should expect to lead approximately two paper discussions.
 
-The reading list is posted on the [schedule]({{ '/schedule/' | relative_url }}) page. Readings marked **[R]** are required, while readings marked **[O]** are optional.
+#### Discussion Leaders
 
-For each class with required readings, submit a response on [Ed](https://edstem.org/us/courses/100553/) by **11:59 PM on the day before class**. Your response should briefly summarize each required paper, identify its key ideas or design choices, and offer your own critical assessment.
+If you are leading the discussion of a paper, you have two responsibilities:
 
-#### In-Class Paper Discussions
+1. **Prepare a standalone Ed post.** Explain the paper's background, the problem it addresses, its key contributions and novel ideas, and how it relates to prior work. Critically evaluate its strengths and weaknesses as if you were reviewing it for a conference, and include a list of questions for class discussion. Plan to spend approximately **5–8 hours** reading the paper and preparing the post. A draft is due on [Ed](https://edstem.org/us/courses/100553/) by the start of class **one week before** your assigned discussion. If a paper has multiple discussion leaders, work together and submit a single post.
+2. **Lead the in-class discussion.** This is a discussion rather than a formal presentation, so slides are optional. Be prepared to provide context, explain the paper's central ideas and tradeoffs, respond to questions, and keep the conversation moving.
 
-Students will lead assigned paper discussions. Presentation slides are optional. The goal is to provide the necessary context, explain the paper's central ideas and tradeoffs, and keep the class discussion moving rather than simply summarizing the paper section by section.
+Discussion leaders do not need to submit a separate reading response for their assigned paper and will receive reading-response credit for it. Papers assigned to guest lectures will not have student discussion leaders, so no discussion-leader Ed post is required for those papers.
+
+#### Reading Responses
+
+For each class with required readings, the instructor will create a post on [Ed](https://edstem.org/us/courses/100553/). If you are not leading that day's discussion, reply to the instructor's post with **one or two paragraphs** describing what you liked and did not like about the paper, followed by a list of questions for the in-class discussion. When multiple papers are required, address each of them in your response.
+
+Responses are due by **11:59 PM on the evening before class** (Monday for a Tuesday class and Wednesday for a Thursday class). Required readings for guest lectures still require a reading response unless the instructor announces otherwise.
 
 #### Research Project
 
-The course project is an open-ended research project completed individually or in groups of two. A list of potential project ideas is available [here](https://docs.google.com/document/d/1Xg-3SyGgReQNZsVCMINAjBHkuqiwNQ7Vx6vSeaeMNEc/edit?usp=sharing).
+The course project is an open-ended research project completed individually or in groups of two. A list of potential project ideas will be posted here.
 
 Each project will include a proposal, progress discussions with the course staff, a final report, and an in-class presentation. Project milestones and deadlines are listed on the [schedule]({{ '/schedule/' | relative_url }}) and will be announced on Ed.
 
