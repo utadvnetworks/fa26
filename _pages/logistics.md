@@ -28,7 +28,7 @@ To make office hours productive and fair for everyone:
 
 ### Course Organization
 
-This course is a research seminar, so much of our class time will be devoted to reading and discussing research papers. The reading list is posted on the [schedule]({{ '/schedule/' | relative_url }}) page. Readings marked **[R]** are required, while readings marked **[O]** are optional. Discussion assignments will be made during the first week of the semester; each student should expect to lead approximately two paper discussions.
+Much of our class time will be devoted to reading and discussing research papers. The reading list is posted on the [schedule]({{ '/schedule/' | relative_url }}) page. Readings marked **[R]** are required, while readings marked **[O]** are optional. Discussion assignments will be made during the first week of the semester; each student should expect to lead approximately two paper discussions.
 
 #### Discussion Leaders
 
@@ -70,7 +70,8 @@ Your final grade will be based on the following components:
 
 * **Paper reading responses (20%)**
 * **In-class paper discussion leadership (20%)**
-* **Research project, final presentation, and report (50%)**
+* **Midterm (10%)**
+* **Research project, final presentation, and report (40%)**
 * **In-class participation (10%)**
 
 Grades will be posted on [Canvas](https://utexas.instructure.com/courses/1451702).
