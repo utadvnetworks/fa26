@@ -8,7 +8,7 @@
   presenters:
     - Daehyeok
   logistics:
-    - <a href="#">Fill out the survey</a> (by 08/28, Friday)
+    - <a href="https://forms.gle/bW756Js9PtS1mbHa7">Fill out the survey</a> (by 08/28, Friday)
 
 - date: Th 08/27
   title: >
@@ -78,7 +78,8 @@
     <strong>Programmable routers</strong>
   readings:
     - <a href="http://yuba.stanford.edu/~nickm/papers/RMT-SIGCOMM.pdf">[R]RMT</a>
-    - <a href="https://www.cs.princeton.edu/~jrex/papers/P4-ccr14.pdf">[R]P4</a>
+    - <a href="">[R]NetCache</a>
+    - <a href="https://www.cs.princeton.edu/~jrex/papers/P4-ccr14.pdf">[O]P4</a>
   logistics:
     - Submit a proposal on Canvas (by 09/25, Friday)
 
@@ -100,7 +101,7 @@
     <strong>Kernel-bypass networking</strong>
   readings:
     - <a href="https://www.usenix.org/system/files/conference/osdi14/osdi14-paper-belay.pdf">[R]IX</a>
-    - <a href="https://www.usenix.org/system/files/conference/osdi14/osdi14-paper-peter_simon.pdf">[O]Arrakis</a>
+    - <a href="https://www.usenix.org/system/files/conference/osdi14/osdi14-paper-peter_simon.pdf">[R]Arrakis</a>
 
 - date: Th 10/08
   title: >
