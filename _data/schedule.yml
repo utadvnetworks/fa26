@@ -30,7 +30,7 @@
   title: >
     <strong>Inter-domain routing</strong>
   readings:
-    - <a href="https://www.cs.princeton.edu/courses/archive/fall20/cos461/papers/BGPstability98.pdf">[R]RoutingInstability</a>
+    - <a href="https://www.cs.princeton.edu/courses/archive/fall20/cos461/papers/BGPstability98.pdf">[R]BGPstability98</a>
     - <a href="https://users.ece.cmu.edu/~adrian/731-sp04/readings/KLMS-SBGP.pdf">[O]S-BGP</a>
     - <a href="http://nms.csail.mit.edu/6.829-f05/lectures/L4-routing.pdf">[O]MITLecNote</a>
 
@@ -40,8 +40,8 @@
   readings:
     - <a href="http://ccr.sigcomm.org/online/files/fp298-casado.pdf">[R]Ethane</a>
     - <a href="http://ccr.sigcomm.org/online/files/p69-v38n2n-mckeown.pdf">[R]OpenFlow</a>
-    - <a href="https://youtu.be/YHeyuD89n1Y?si=4VpmTS1cD53fwoZq">[R]ShenkerTalk</a>
-    - <a href="https://www.usenix.org/system/files/nsdi21-ferguson.pdf">[R]Orion</a>
+    - <a href="https://youtu.be/YHeyuD89n1Y?si=4VpmTS1cD53fwoZq">[O]ShenkerTalk</a>
+    - <a href="https://www.usenix.org/system/files/nsdi21-ferguson.pdf">[O]Orion</a>
 
 - date: Th 09/10
   title: >
@@ -57,12 +57,13 @@
     <strong>Router design</strong>
   readings:
     - <a href="http://tiny-tera.stanford.edu/~nickm/papers/cisco_fasts_wp.pdf">[R]McKeown97</a>
-    - <a href="https://youtu.be/pRJZE0C77SQ?si=RINcwe6SHF-Mqu_E">[R]ASICforNetEng</a>
+    - <a href="https://youtu.be/pRJZE0C77SQ?si=RINcwe6SHF-Mqu_E">[O]ASICforNetEng</a>
 
 - date: Th 09/17
   title: >
     <strong>Software routers</strong>
   readings:
+    - <a href="https://pdos.csail.mit.edu/papers/click:tocs00/paper.pdf">[R]Click</a>
     - <a href="https://dl.acm.org/doi/pdf/10.1145/1629575.1629578">[R]RouteBricks</a>
 
 - date: T 09/22
@@ -70,7 +71,7 @@
     <strong>Middleboxes</strong>
   readings:
     - <a href="https://www.usenix.org/system/files/conference/nsdi12/nsdi12-final96.pdf">[R]CoMb</a>
-    - <a href="https://dl.acm.org/doi/pdf/10.1145/2342356.2342359">[O]APLOMB</a>
+    - <a href="https://dl.acm.org/doi/pdf/10.1145/2342356.2342359">[R]APLOMB</a>
 
 - date: Th 09/24
   title: >
@@ -87,17 +88,19 @@
   title: >
     <strong>Host network stack basics</strong>
   readings:
-    - <a href="https://netdevconf.org/0x15/papers/29/paper.pdf">[R]UnderstandOverheads</a>
+    - <a href="http://dl.acm.org/doi/epdf/10.1145/3452296.3472888">[R]UnderstandOverheads</a>
 
 - date: Th 10/01
   title: >
     <strong>Guest lecture: SmartNIC</strong>
+    - <a href="https://www.usenix.org/system/files/conference/nsdi18/nsdi18-firestone.pdf">[R]AccelNet</a>
 
 - date: T 10/06
   title: >
     <strong>Kernel-bypass networking</strong>
   readings:
     - <a href="https://www.usenix.org/system/files/conference/osdi14/osdi14-paper-belay.pdf">[R]IX</a>
+    - <a href="https://www.usenix.org/system/files/conference/osdi14/osdi14-paper-peter_simon.pdf">[O]Arrakis</a>
 
 - date: Th 10/08
   title: >
@@ -120,7 +123,7 @@
     <strong>Datacenter Fabrics</strong>
   readings:
     - <a href="http://ccr.sigcomm.org/online/files/p63-alfares.pdf">[R]FatTree</a>
-    - <a href="https://www.microsoft.com/en-us/research/wp-content/uploads/2016/11/vl2-sigcomm09.pdf">VL2</a>
+    - <a href="https://www.microsoft.com/en-us/research/wp-content/uploads/2016/11/vl2-sigcomm09.pdf">[O]VL2</a>
 
 - date: Th 10/22
   title: >
@@ -133,13 +136,15 @@
     <strong>Datacenter Transport</strong>
   readings:
     - <a href="https://people.csail.mit.edu/alizadeh/papers/dctcp-sigcomm10.pdf">[R]DCTCP</a>
-    - <a href="https://people.csail.mit.edu/alizadeh/papers/homa-sigcomm18.pdf">Homa</a>
+    - <a href="https://dl.acm.org/doi/epdf/10.1145/3098822.3098825">[R]NDP</a>
 
 - date: Th 10/29
   title: >
     <strong>Emerging Interconnects</strong>
   readings:
-    - <a href="https://arxiv.org/abs/2306.11227">[R]IntroCXL</a>
+    - <a href="https://dl.acm.org/doi/epdf/10.1145/3718958.3750468">[R]InfiniteHBD</a>
+    - <a href="https://arxiv.org/abs/2306.11227">[O]IntroCXL</a>
+
 
 - title: "Part 5: Networking for AI Systems"
 
@@ -148,9 +153,7 @@
     <strong>AI datacenter topology & fabrics</strong>
   readings:
     - <a href="https://ennanzhai.github.io/pub/sigcomm24-hpn.pdf">[R]HPN</a>
-    - <a href="https://www.usenix.org/conference/nsdi23/presentation/wang-weiyang">[R]TopoOpt</a>
-    - <a href="https://doi.org/10.1145/3718958.3750503">ATOP</a>
-    - <a href="https://people.csail.mit.edu/ghobadi/papers/rail_only_hoti_2024.pdf">RailOnly</a>
+    - <a href="https://www.usenix.org/conference/nsdi23/presentation/wang-weiyang">[O]TopoOpt</a>
 
 - date: Th 11/05
   title: >
@@ -164,6 +167,7 @@
     <strong>Transport for AI clusters (1)</strong>
   readings:
     - <a href="https://engineering.fb.com/wp-content/uploads/2024/08/sigcomm24-final246.pdf">[R]MetaRoCE</a>
+    - <a href="https://arxiv.org/abs/2605.04333">[R]MRC</a>
 
 - date: Th 11/12
   title: >
@@ -177,8 +181,8 @@
   title: >
     <strong>Learned Congestion Control</strong>
   readings:
-    - <a href="https://dl.acm.org/doi/pdf/10.1145/2534169.2486020">[O]Remy</a>
     - <a href="https://dl.acm.org/doi/pdf/10.1145/3387514.3405892">[R]Orca</a>
+    - <a href="https://dl.acm.org/doi/pdf/10.1145/2534169.2486020">[O]Remy</a>
   presenters:
     - <a href="https://janecjy.github.io/">Jane</a>
 
