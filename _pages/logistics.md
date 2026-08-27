@@ -43,7 +43,7 @@ Discussion leaders do not need to submit a separate reading response for their a
 
 For each class with required readings, the instructor will create a post on [Ed](https://edstem.org/us/courses/100553/). If you are not leading that day's discussion, reply to the instructor's post with **one or two paragraphs** describing what you liked and did not like about the paper, followed by a list of questions for the in-class discussion. When multiple papers are required, choose one paper for your response.
 
-Responses are due by **11:59 PM on the evening before class** (Monday for a Tuesday class and Wednesday for a Thursday class). Required readings for guest lectures still require a reading response unless the instructor announces otherwise.
+Responses are due by **8:00 PM on the evening before class** (Monday for a Tuesday class and Wednesday for a Thursday class). Required readings for guest lectures still require a reading response unless the instructor announces otherwise.
 
 #### Research Project
 
