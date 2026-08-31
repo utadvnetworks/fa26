@@ -35,8 +35,9 @@
   title: >
     <strong>Inter-domain routing</strong>
   readings:
-    - <a href="https://www.cs.princeton.edu/courses/archive/fall20/cos461/papers/BGPstability98.pdf">[R]BGPstability98</a>
-    - <a href="https://users.ece.cmu.edu/~adrian/731-sp04/readings/KLMS-SBGP.pdf">[O]S-BGP</a>
+    - <a href="https://users.caida.org/~amogh/papers/asrank-IMC13.pdf">[R]InferAS</a>
+    - <a href="https://www.cs.princeton.edu/courses/archive/fall06/cos561/papers/gao01.pdf">[O]Gao01</a>
+    - <a href="https://www.cs.princeton.edu/courses/archive/fall20/cos461/papers/BGPstability98.pdf">[O]BGPstability98</a>
     - <a href="http://nms.csail.mit.edu/6.829-f05/lectures/L4-routing.pdf">[O]MITLecNote</a>
   presenters:
     - Joon Ha
