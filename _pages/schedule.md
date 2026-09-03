@@ -61,16 +61,13 @@ title: Schedule
             <br />{{ lecture.recitation }}<br />
         {% endif %}
         
-            {% if lecture.slides %}
-              <a href="{{ lecture.slides }}" target="_blank">[ slides ]</a>
-            {% else %}
-              
+            {% if lecture.slides.lecture %}
+              <a href="{{ lecture.slides.lecture }}" target="_blank">[lecture]</a>
             {% endif %}
-            {% if lecture.slides2 %}
-              | <a href="{{ lecture.slides2 }}" target="_blank">[ slides 2 ]</a>
-            {% endif %}
-            {% if lecture.slides3 %}
-              | <a href="{{ lecture.slides3 }}" target="_blank">[ slides 3 ]</a>
+            {% if lecture.slides.discussions %}
+              {% for discussion in lecture.slides.discussions %}
+                <a href="{{ discussion }}" target="_blank">[discussion {{ forloop.index }}]</a>
+              {% endfor %}
             {% endif %}
             {% if lecture.annotated %}
               (<a href="{{ lecture.annotated }}" target="_blank">annotated</a>)

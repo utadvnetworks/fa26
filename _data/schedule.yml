@@ -7,7 +7,8 @@
     - <a href="https://utadvnetworks.github.io/papers/HowToRead.pdf">[R]HowToRead</a>
   presenters:
     - Daehyeok
-  slides: https://utexas-my.sharepoint.com/:p:/g/personal/kd22637_eid_utexas_edu/IQB17wpeNGjkRpjS6OMrWVOhAYy4T6bpUjbnDRwYQjYT3RM?e=88YIb2
+  slides:
+    lecture: https://utexas-my.sharepoint.com/:p:/g/personal/kd22637_eid_utexas_edu/IQB17wpeNGjkRpjS6OMrWVOhAYy4T6bpUjbnDRwYQjYT3RM?e=88YIb2
   logistics:
     - <a href="https://forms.gle/bW756Js9PtS1mbHa7">Fill out the survey</a> (by 08/28, Friday)
 
@@ -19,7 +20,8 @@
     - <a href="https://utadvnetworks.github.io/papers/ClarkCommentary.pdf">[O]ClarkCommentary</a>
   presenters:
     - Daehyeok
-  slides: https://utexas-my.sharepoint.com/:p:/g/personal/kd22637_eid_utexas_edu/IQBbrYRbnNYrRYWORoJ6U556Ac7efh5bj9bH1tBhMJXXVmM?e=xDrDEm
+  slides:
+    lecture: https://utexas-my.sharepoint.com/:p:/g/personal/kd22637_eid_utexas_edu/IQBbrYRbnNYrRYWORoJ6U556Ac7efh5bj9bH1tBhMJXXVmM?e=xDrDEm
 
 - date: T 09/01
   title: >
@@ -28,7 +30,8 @@
     - <a href="https://utadvnetworks.github.io/papers/EndToEnd.pdf">[R]EndToEnd</a>
   presenters:
     - Daehyeok
-  slides: https://utexas-my.sharepoint.com/:p:/g/personal/kd22637_eid_utexas_edu/IQDX__Oq_33HQ6LFWyMveLH3ATlxthGgyO45-cv9ztBHtH0?e=RPEaVP
+  slides:
+    lecture: https://utexas-my.sharepoint.com/:p:/g/personal/kd22637_eid_utexas_edu/IQDX__Oq_33HQ6LFWyMveLH3ATlxthGgyO45-cv9ztBHtH0?e=RPEaVP
 
 - title: "Part 1: Network Control Plane"
 
@@ -42,7 +45,8 @@
     - <a href="https://utadvnetworks.github.io/papers/MITLecNote.pdf">[O]MITLecNote</a>
   presenters:
     - Joon Ha
-  slides: https://utexas-my.sharepoint.com/:p:/g/personal/kd22637_eid_utexas_edu/IQBSDDyMalG-Q7ESqpb_0wtAAUXK-qc30syyqu8wnqpDf4Y?e=Jpaccu
+  slides:
+    lecture: https://utexas-my.sharepoint.com/:p:/g/personal/kd22637_eid_utexas_edu/IQBSDDyMalG-Q7ESqpb_0wtAAUXK-qc30syyqu8wnqpDf4Y?e=Jpaccu
 
 - date: T 09/08
   title: >
@@ -55,7 +59,8 @@
   presenters:
     - Rishika
     - Jeffrey
-  slides: https://utexas-my.sharepoint.com/:p:/g/personal/kd22637_eid_utexas_edu/IQC7AADljLk5S4mD9-iTlnucAU4tnAdMpZ6qJVWFznlROVs?e=qdJeYX
+  slides:
+    lecture: https://utexas-my.sharepoint.com/:p:/g/personal/kd22637_eid_utexas_edu/IQC7AADljLk5S4mD9-iTlnucAU4tnAdMpZ6qJVWFznlROVs?e=qdJeYX
 
 - date: Th 09/10
   title: >
