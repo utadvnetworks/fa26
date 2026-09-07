@@ -181,9 +181,10 @@
     <strong>Load Balancing</strong>
   readings:
     - <a href="https://utadvnetworks.github.io/papers/CONGA.pdf">[R]CONGA</a>
-    - <a href="https://utadvnetworks.github.io/papers/LetFlow.pdf">[O]LetFlow</a>
+    - <a href="https://utadvnetworks.github.io/papers/LetFlow.pdf">[R]LetFlow</a>
   presenters:
     - Shazer
+    - Haowei
 
 - date: T 10/27
   title: >
