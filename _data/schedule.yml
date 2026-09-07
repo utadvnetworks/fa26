@@ -38,7 +38,7 @@
 
 - date: Th 09/03
   title: >
-    <strong>Inter-domain routing</strong>
+    <strong>Internet routing</strong>
   readings:
     - <a href="https://utadvnetworks.github.io/papers/InferAS.pdf">[R]InferAS</a>
     - <a href="https://utadvnetworks.github.io/papers/Gao01.pdf">[O]Gao01</a>
