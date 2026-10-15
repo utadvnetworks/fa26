@@ -280,16 +280,14 @@
     <strong>Transport for AI clusters (1)</strong>
   readings:
     - <a href="https://utadvnetworks.github.io/papers/MetaRoCE.pdf">[R]MetaRoCE</a>
-    - <a href="https://utadvnetworks.github.io/papers/MRC.pdf">[R]MRC</a>
   presenters:
     - Margaret
-    - Si Ung
 
 - date: Th 11/12
   title: >
     <strong>Transport for AI clusters (2)</strong>
   readings:
-    - <a href="https://utadvnetworks.github.io/papers/UCCL.pdf">[R]UCCL</a>
+    - <a href="https://utadvnetworks.github.io/papers/MRC.pdf">[R]MRC</a>
   presenters:
     - Si Ung
 
