@@ -227,7 +227,7 @@
     <strong>Load Balancing</strong>
   readings:
     - <a href="https://utadvnetworks.github.io/papers/CONGA.pdf">[R]CONGA</a>
-    - <a href="https://utadvnetworks.github.io/papers/LetFlow.pdf">[R]LetFlow</a>
+    - <a href="https://utadvnetworks.github.io/papers/LetFlow.pdf">[O]LetFlow</a>
   presenters:
     - Shazer
     - Haowei
@@ -237,7 +237,7 @@
     <strong>Datacenter Transport</strong>
   readings:
     - <a href="https://utadvnetworks.github.io/papers/DCTCP.pdf">[R]DCTCP</a>
-    - <a href="https://utadvnetworks.github.io/papers/NDP.pdf">[R]NDP</a>
+    - <a href="https://utadvnetworks.github.io/papers/NDP.pdf">[O]NDP</a>
   presenters:
     - Kshitij K.
     - Jyotsna
@@ -247,7 +247,7 @@
     <strong>Emerging Interconnects</strong>
   readings:
     - <a href="https://utadvnetworks.github.io/papers/InfiniteHBD.pdf">[R]InfiniteHBD</a>
-    - <a href="https://utadvnetworks.github.io/papers/Pond.pdf">[R]Pond</a>
+    - <a href="https://utadvnetworks.github.io/papers/Pond.pdf">[O]Pond</a>
     - <a href="https://utadvnetworks.github.io/papers/IntroCXL.pdf">[O]IntroCXL</a>
   presenters:
     - Bei
@@ -270,7 +270,7 @@
     <strong>Collective communication</strong>
   readings:
     - <a href="https://utadvnetworks.github.io/papers/TE-CCL.pdf">[R]TE-CCL</a>
-    - <a href="https://utadvnetworks.github.io/papers/MSCCL++.pdf">[R]MSCCL++</a>
+    - <a href="https://utadvnetworks.github.io/papers/MSCCL++.pdf">[O]MSCCL++</a>
   presenters:
     - Ron
     - Anish
