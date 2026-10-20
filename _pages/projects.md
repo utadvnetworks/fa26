@@ -64,7 +64,7 @@ Please use the ACM HotNets [Latex template](https://conferences.sigcomm.org/hotn
 
 ### Midterm checkpoint meeting
 
-Each project team is required to schedule a checkpoint meeting with the instructor on Oct 23. The purpose of this meeting is to provide an early feedback on your progress to help ensure that your final report is great.
+Each project team is required to schedule a checkpoint meeting with the instructor on Oct 30. The purpose of this meeting is to provide an early feedback on your progress to help ensure that your final report is great.
 
 ---
 
