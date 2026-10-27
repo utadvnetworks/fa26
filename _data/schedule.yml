@@ -260,6 +260,8 @@
   presenters:
     - Bei
     - Zhiqiang
+  slides:
+    lecture: https://utexas-my.sharepoint.com/:p:/g/personal/kd22637_eid_utexas_edu/IQAWdI9jZCiWQrsa2T9Nlnw8AYqGPRLKVu8xzaISEeEvY8c?e=jqgubp
 
 
 - title: "Part 5: Networking for AI Systems"
