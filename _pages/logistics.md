@@ -28,7 +28,9 @@ To make office hours productive and fair for everyone:
 
 ### Course Organization
 
-Much of our class time will be devoted to reading and discussing research papers. The reading list is posted on the [schedule]({{ '/schedule/' | relative_url }}) page. Readings marked **[R]** are required, while readings marked **[O]** are optional. Discussion assignments will be made during the first week of the semester; each student may be assigned one paper discussion to lead.
+Each 75-minute class typically consists of approximately 45 minutes of instructor-led lecture and 30 minutes of research paper discussion. Lectures introduce the concepts and background needed to understand the assigned papers.
+
+The reading list is posted on the [schedule]({{ '/schedule/' | relative_url }}) page. Readings marked **[R]** are required, while readings marked **[O]** are optional. Discussion assignments will be made during the first week of the semester; each student may be assigned one paper discussion to lead.
 
 #### Discussion Leaders
 
