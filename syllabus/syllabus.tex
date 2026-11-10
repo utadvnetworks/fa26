@@ -1,0 +1,470 @@
+\documentclass[11pt]{article}
+\usepackage[letterpaper,margin=0.9in,headheight=14pt]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{newtxtext,newtxmath}
+\usepackage{microtype}
+\usepackage[table]{xcolor}
+\usepackage{graphicx}
+\usepackage{booktabs,longtable,tabularx,array}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{fancyhdr}
+\usepackage{lastpage}
+\usepackage[hidelinks]{hyperref}
+
+\definecolor{burnt}{HTML}{BF5700}
+\definecolor{ink}{HTML}{333F48}
+\definecolor{partbg}{HTML}{F6E3D4}
+\definecolor{nobg}{HTML}{F2F2F2}
+\hypersetup{colorlinks=true,urlcolor=burnt,linkcolor=ink}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{5pt}
+\setlist{itemsep=2pt,topsep=3pt,parsep=0pt,leftmargin=1.4em}
+
+\titleformat{\section}{\large\bfseries\color{burnt}}{}{0pt}{}[\vspace{-9pt}{\color{burnt}\rule{\linewidth}{0.6pt}}]
+\titlespacing*{\section}{0pt}{12pt}{2pt}
+\titleformat{\subsection}{\normalsize\bfseries\color{ink}}{}{0pt}{}
+\titlespacing*{\subsection}{0pt}{8pt}{2pt}
+
+\pagestyle{fancy}
+\fancyhf{}
+\lhead{\small\color{ink}CS 395T Advanced Computer Networks \textbullet{} Fall 2026}
+\rhead{\small\color{ink}Syllabus}
+\cfoot{\small\color{ink}Page \thepage\ of \pageref{LastPage}}
+\renewcommand{\headrulewidth}{0.4pt}
+
+\newcommand{\website}{https://utadvnetworks.github.io/fa26/}
+\newcommand{\ed}{https://edstem.org/us/courses/100553/}
+\newcommand{\paper}[2]{\href{https://utadvnetworks.github.io/papers/#1.pdf}{#2}}
+\newcommand{\R}{\textbf{[R]}\,}
+\newcommand{\Opt}{\textcolor{ink!70}{[O]}\,}
+
+\begin{document}
+
+%% ---------------------------------------------------------------- Title
+\begin{minipage}[c]{0.13\linewidth}
+  \includegraphics[width=\linewidth]{../assets/img/ut-logo.png}
+\end{minipage}\hfill
+\begin{minipage}[c]{0.84\linewidth}
+  {\small\color{ink}The University of Texas at Austin \textbullet{} Department of Computer Science}\\[2pt]
+  {\LARGE\bfseries\color{burnt} CS 395T: Advanced Computer Networks}\\[2pt]
+  {\large\color{ink} Syllabus, Fall 2026}
+\end{minipage}
+
+\vspace{10pt}
+\renewcommand{\arraystretch}{1.25}
+\begin{tabularx}{\linewidth}{@{}>{\bfseries}l X >{\bfseries}l X@{}}
+\toprule
+Unique number & 55735 & Location & GDC 6.202 \\
+Time & Tuesday \& Thursday, 9:30--10:45 AM & Discussion & \href{\ed}{Ed Discussion} \\
+Website & \href{\website}{utadvnetworks.github.io/fa26} & Grades & \href{https://utexas.instructure.com/courses/1451702}{Canvas} \\
+\bottomrule
+\end{tabularx}
+
+\vspace{6pt}
+\begin{tabularx}{\linewidth}{@{}l l l X@{}}
+\textbf{Role} & \textbf{Name \& email} & \textbf{Office hours} & \textbf{Location} \\
+\midrule
+Instructor & Daehyeok Kim, \href{mailto:daehyeok@utexas.edu}{daehyeok@utexas.edu} & Tuesdays 11 AM--12 PM & GDC 6.824 \\
+TA & Geon-Woo Kim, \href{mailto:gwkim@utexas.edu}{gwkim@utexas.edu} & Thursdays 4--5 PM & GDC 6.818B \\
+\bottomrule
+\end{tabularx}
+\renewcommand{\arraystretch}{1}
+
+%% ---------------------------------------------------------------- Overview
+\section{Course Overview}
+
+This graduate-level course examines how modern computer networks are designed,
+programmed, accelerated, and scaled. We connect foundational networking
+principles with contemporary systems across the Internet, end hosts,
+datacenters, and large-scale AI infrastructure. Throughout the course, we will
+study both classic and recent research, with an emphasis on the design choices
+and performance tradeoffs behind real networked systems.
+
+\subsection{Objectives}
+\begin{itemize}
+  \item To understand foundational networking principles and the roles of the control plane, data plane, and end hosts.
+  \item To analyze the design and performance of Internet, host, datacenter, and AI-cluster networks.
+  \item To critically review research papers in computer networking and networked systems.
+  \item To explore research problems and build useful networking systems through a semester-long course project.
+\end{itemize}
+
+The course combines instructor lectures, research-paper readings, and open
+in-class discussion. Students will work individually or form a project group of
+up to three students and complete either a research project or an open-source
+engineering project in computer networks or networked systems, culminating in a
+final report and presentation.
+
+\subsection{Topics}
+\begin{itemize}
+  \item \textbf{Foundations:} network design principles and the end-to-end argument
+  \item \textbf{Network control plane:} inter-domain routing, software-defined networking, and network virtualization
+  \item \textbf{Network data plane:} router design, software routers, middleboxes, and programmable routers
+  \item \textbf{Host networking:} network-stack overheads, SmartNICs, kernel-bypass networking, and RDMA
+  \item \textbf{Datacenter networks:} fabrics, load balancing, transport, and packet scheduling
+  \item \textbf{Emerging interconnects:} NVLink, optics, and CXL
+  \item \textbf{Networking for AI systems:} AI datacenter topologies and fabrics, collective communication, and transport for AI clusters
+  \item \textbf{AI for networking:} applications of AI to network design, operation, and management
+\end{itemize}
+
+\subsection{Prerequisites}
+\begin{itemize}
+  \item CS 356 (Computer Networks) or equivalent
+  \item C and Python programming experience
+\end{itemize}
+
+\subsection{References}
+The following are useful references.
+\begin{itemize}
+  \item \href{https://utcs356.github.io/sp26/schedule/}{CS 356 lecture notes}, a reference and refresher for the networking fundamentals assumed in this course.
+  \item \href{https://book.systemsapproach.org/}{\emph{Computer Networks: A Systems Approach}} (available online) by Larry Peterson and Bruce Davie.
+  \item \href{https://sdn.systemsapproach.org/index.html}{\emph{Software-Defined Networks: A Systems Approach}} (available online) by Larry Peterson, Carmelo Cascone, Brian O'Connor, Thomas Vachuska, and Bruce Davie.
+\end{itemize}
+
+%% ---------------------------------------------------------------- Logistics
+\section{Communication and Office Hours}
+
+We will use \href{\ed}{Ed} for course announcements, general questions,
+assignment clarifications, student discussions, and other course-related
+communication.
+
+The instructor and TA hold regular office hours (listed above) to help with
+course material, paper discussions, course projects, and related concerns.
+To make office hours productive and fair for everyone:
+\begin{itemize}
+  \item \textbf{Come prepared.} Review the relevant material and make a genuine effort before attending. For project questions, bring a specific question, relevant context, and a description of what you have already tried. The course staff will guide you toward solutions but will not write project code or reports for you.
+  \item \textbf{Respect the queue.} Keep each turn focused so everyone has an opportunity to receive help. You are welcome to rejoin the queue if you need additional time.
+\end{itemize}
+
+\section{Course Organization}
+
+Each 75-minute class typically consists of approximately 45 minutes of
+instructor-led lecture and 30 minutes of research paper discussion. Lectures
+introduce the concepts and background needed to understand the assigned papers.
+
+The reading list appears in the schedule at the end of this syllabus and on the
+course website. Readings marked \textbf{[R]} are required, while readings marked
+\textbf{[O]} are optional. Discussion assignments will be made during the first
+week of the semester; each student may be assigned one paper discussion to lead.
+
+\subsection{Discussion Leaders}
+If you are leading the discussion of a paper, you have two responsibilities.
+\begin{enumerate}
+  \item \textbf{Prepare a standalone Ed post.} Explain the paper's background, the problem it addresses, its key contributions and novel ideas, and how it relates to prior work. Critically evaluate its strengths and weaknesses as if you were reviewing it for a conference, and include a list of questions for class discussion. Plan to spend approximately \textbf{5--8 hours} reading the paper and preparing the post. A draft is due on Ed by the start of class \textbf{two days before} your assigned discussion. If a paper has multiple discussion leaders, work together and submit a single post.
+  \item \textbf{Lead the in-class discussion.} This is a discussion rather than a formal presentation, so slides are optional. Be prepared to provide context, explain the paper's central ideas and tradeoffs, respond to questions, and keep the conversation moving.
+\end{enumerate}
+Discussion leaders do not need to submit a separate reading response for their
+assigned paper and will receive reading-response credit for it. Papers assigned
+to guest lectures will not have student discussion leaders, so no
+discussion-leader Ed post is required for those papers.
+
+\subsection{Reading Responses}
+For each class with required readings, the instructor will create a post on Ed.
+If you are not leading that day's discussion, reply to the instructor's post
+with \textbf{one or two paragraphs} describing what you liked and did not like
+about the paper, followed by a list of questions for the in-class discussion.
+When multiple papers are required, choose one paper for your response.
+
+Responses are due by \textbf{8:00 PM on the evening before class} (Monday for a
+Tuesday class and Wednesday for a Thursday class). Required readings for guest
+lectures still require a reading response unless the instructor announces
+otherwise.
+
+\subsection{Midterm}
+The midterm will cover the topics discussed during the first half of the
+semester. Questions will assess your understanding of the course concepts and
+the research papers we have studied. For each paper, you should understand
+\begin{itemize}
+  \item the problem the paper aims to solve,
+  \item why that problem is important or challenging,
+  \item the paper's key ideas and approach, and
+  \item how those ideas address the stated problem.
+\end{itemize}
+
+%% ---------------------------------------------------------------- Project
+\section{Course Project}
+
+The course project may be completed individually or in a group of up to three
+students. Each team will choose one of two tracks. Both tracks have the same
+expectations for technical depth, evaluation, documentation, and final
+presentation. Each project includes a proposal, a checkpoint meeting with the
+course staff, a final report, and an in-class presentation. We will provide a
+list of possible research and engineering project ideas on the course website;
+you are also strongly encouraged to propose your own idea.
+
+\subsection{Track 1: Research Project}
+You will formulate and investigate an open-ended research question in computer
+networking or networked systems. A strong project should
+\begin{itemize}
+  \item identify an important problem and explain why existing approaches are insufficient,
+  \item develop a hypothesis, design, or new approach,
+  \item compare against appropriate baselines or related work,
+  \item evaluate the idea through experiments, analysis, or a prototype, and
+  \item clearly explain both positive and negative results.
+\end{itemize}
+A project does not need to produce a successful new system or technique, but it
+must demonstrate a rigorous investigation and meaningful progress on the
+proposed question.
+
+\subsection{Track 2: Open-Source Engineering Project}
+You will build a useful networking tool that is not adequately provided by
+existing open-source software. The project should address a concrete need faced
+by networking researchers, developers, operators, educators, or students. A
+strong engineering project should
+\begin{itemize}
+  \item identify a specific intended user and an important unmet need,
+  \item survey related tools and clearly explain the gap being addressed,
+  \item include a substantial, technically meaningful implementation rather than a thin wrapper or visualization of an existing tool,
+  \item demonstrate correctness and usefulness using realistic examples or workloads,
+  \item be released as open-source software with a license, installation instructions, documentation, examples, and tests, and
+  \item include a working demonstration in the final presentation.
+\end{itemize}
+
+\subsection{Proposal (2 pages)}
+The proposal should describe the problem, its relationship to the course, the
+proposed work, the responsibilities of each team member, the resources
+required, and how the outcome will be evaluated. It should convince us that the
+project is relevant, technically meaningful, feasible within one semester, and
+supported by a concrete evaluation plan.
+
+\textbf{Research-track proposals} should state the research question, summarize
+related work, explain the proposed approach, identify appropriate baselines, and
+describe the experiments or analysis that will answer the research question.
+\textbf{Engineering-track proposals} should identify the intended users and their
+current workflow, survey existing tools, explain the missing capability, define
+the proposed interface and implementation, and describe how you will demonstrate
+correctness and usefulness. The proposal must also explain how the project can be
+developed and evaluated without specialized hardware or a multi-GPU cluster.
+
+Include three types of goals, namely 75\% goals, 100\% goals, and 125\% goals.
+Think of these as the equivalent of a B, an A, and a ``wow!'' grade. The goals
+can be dependent on or independent of the previous goals. Consider also answering
+the \href{https://www.darpa.mil/work-with-us/heilmeier-catechism}{Heilmeier
+Questions} in your proposal, as appropriate.
+
+\subsection{Midterm Checkpoint Meeting}
+Each project team is required to schedule a checkpoint meeting with the
+instructor on Oct 30. The purpose of this meeting is to provide early feedback
+on your progress to help ensure that your final report is great.
+
+\subsection{Final Report (6 pages) and Presentation}
+Each project team is required to submit a final report and give a presentation
+at the end of the semester. Research-track reports should present the question,
+related work, approach, and evaluation. Engineering-track reports should
+document the need, comparison with existing tools, design and implementation,
+testing, evaluation, and lessons learned. Engineering teams must also provide a
+link to the open-source repository and give a working demonstration during the
+final presentation.
+
+\subsection{Important Dates}
+\begin{itemize}
+  \item Proposal (2 pages) due \textbf{Sep 25}
+  \item Checkpoint meeting \textbf{Oct 30}
+  \item In-class project presentations \textbf{Dec 1 and Dec 3}
+  \item Final report (6 pages) due \textbf{Dec 4}
+\end{itemize}
+Please use the ACM HotNets
+\href{https://conferences.sigcomm.org/hotnets/2026/cfp.html}{LaTeX template}
+for the proposal and final report.
+
+%% ---------------------------------------------------------------- Grading
+\section{Grading}
+
+\begin{minipage}[t]{0.53\linewidth}
+\vspace{0pt}
+Your final grade will be based on the following components.
+
+\vspace{4pt}
+\renewcommand{\arraystretch}{1.2}
+\begin{tabular}{@{}l r@{}}
+\toprule
+Paper reading responses & 20\% \\
+In-class paper discussion leadership & 20\% \\
+Midterm & 10\% \\
+Course project, final presentation, and report & 40\% \\
+In-class participation & 10\% \\
+\midrule
+\textbf{Total} & \textbf{100\%} \\
+\bottomrule
+\end{tabular}
+
+\vspace{8pt}
+Grades will be posted on
+\href{https://utexas.instructure.com/courses/1451702}{Canvas}.
+
+\vspace{4pt}
+\textbf{Important notes}
+\begin{itemize}
+  \item There will be no extra-credit opportunities offered at the end of the semester.
+  \item Grades will not be curved or adjusted based on individual circumstances.
+\end{itemize}
+\end{minipage}\hfill
+\begin{minipage}[t]{0.44\linewidth}
+\vspace{0pt}
+\centering
+\textbf{Letter Grade Scale}\\[3pt]
+\renewcommand{\arraystretch}{1.08}
+\begin{tabular}{@{}l c @{\hspace{1.0em}} l c@{}}
+\toprule
+Range & Grade & Range & Grade \\
+\midrule
+93--100\%      & A  & 73--76.99\%    & C  \\
+90--92.99\%    & A$-$ & 70--72.99\%  & C$-$ \\
+87--89.99\%    & B+ & 67--69.99\%    & D+ \\
+83--86.99\%    & B  & 63--66.99\%    & D  \\
+80--82.99\%    & B$-$ & 60.01--62.99\% & D$-$ \\
+77--79.99\%    & C+ & 0--60\%        & F  \\
+\bottomrule
+\end{tabular}
+\end{minipage}
+
+\section{Deadlines, Late Submissions, and Absences}
+
+Plan ahead for reading responses and project milestones. If you anticipate a
+conflict, contact the instructor \textbf{at least one week in advance} so that
+appropriate arrangements can be considered.
+
+For emergencies such as medical or family situations, contact the instructor as
+soon as possible. Requests submitted only after a deadline or missed class may
+not be accepted unless the circumstances prevented earlier notice.
+
+Regular attendance is expected and contributes to your learning and
+participation grade. If you must miss class, notify the instructor in advance
+when possible.
+
+%% ---------------------------------------------------------------- Policies
+\section{Course Policies}
+
+\subsection{Academic Integrity}
+All submitted course materials, including reading responses, project code,
+reports, and presentation materials, must represent your own work. When using
+external sources, cite them properly and clearly indicate which parts are your
+own. If you are unsure whether something violates this policy, consult the
+instructor before submitting it. Violations of academic integrity will be
+handled according to the
+\href{https://deanofstudents.utexas.edu/conduct/index.php}{University of Texas
+policies and procedures}.
+
+\subsection{Course Artificial Intelligence Policy}
+In accordance with the University's
+\href{https://catalog.utexas.edu/general-information/appendices/appendix-c/student-conduct-and-academic-integrity/}{Institutional
+Rules on Student Services and Activities, Chapter 11}, students accept the
+responsibility to always uphold academic integrity and an honor code reflective
+of a scholarly community devoted to academic and personal success. All members
+of the University community are fully accountable and responsible for any
+output they produce as part of academic work. Students must also follow the
+\href{https://www.utexas.edu/academics/texas-statement-academic-integrity}{Texas
+Statement on Academic Integrity} and avoid prohibited uses described in the
+University's \href{https://security.utexas.edu/ai-tools}{Acceptable Use of
+Generative AI Tools} guidance.
+
+In this course, \textbf{generative AI use is partially permitted}, subject to
+the following conditions.
+\begin{itemize}
+  \item \textbf{Paper reading responses and discussions.} You \textbf{may not use} generative AI to read, summarize, analyze, or interpret a paper, or to generate its key ideas, critiques, or discussion points; this intellectual work must be your own. You \textbf{may use} generative AI to check grammar and style, provided that it does not create or substantially rewrite the content.
+  \item \textbf{Course project.} You \textbf{may use} generative AI to assist with technical implementation, such as coding and debugging, but you remain responsible for understanding, reviewing, testing, and validating everything you submit. For project proposals, reports, and other written deliverables, you \textbf{may not use} generative AI to generate or substantially rewrite the substantive ideas, analysis, explanations, or prose; this work must be your own. You \textbf{may use} generative AI to check grammar and style.
+\end{itemize}
+Whenever you use generative AI for permitted work, include a brief \textbf{AI
+Use Disclosure} with the submission that identifies the tool and explains what
+it was used for and how you reviewed its output. Using generative AI outside
+these conditions or failing to disclose its use may constitute academic
+misconduct under University rules.
+
+\subsection{Services for Students with Disabilities}
+The university is committed to providing an accessible and inclusive learning
+environment. If you encounter barriers to learning, please inform the
+instructor so we can work together to ensure that you have an equal
+opportunity to participate fully in the course. If you have a disability or
+need accommodations, contact \href{https://disability.utexas.edu/}{Disability
+and Access (D\&A)}. If you are already registered with D\&A, provide your
+Accommodation Letter as early as possible so we can discuss your approved
+accommodations and needs.
+
+\subsection{Sharing of Course Materials}
+\textbf{Course materials may not be shared outside the class without written
+permission from the instructor.} This includes lecture materials, course
+assignments, and student work. Unauthorized sharing may facilitate academic
+misconduct and violate university policy. Materials associated with suspected
+unauthorized sharing may be reported to Student Conduct and Academic Integrity
+and may result in academic-misconduct charges and sanctions.
+
+\subsection{Syllabus Changes}
+The instructor reserves the right to modify the syllabus during the semester.
+Any changes will be announced in class, posted on Ed, and reflected on the
+course website.
+
+%% ---------------------------------------------------------------- Schedule
+\clearpage
+\section{Tentative Schedule}
+
+The schedule is subject to change; the
+\href{\website schedule/}{course website} has the latest version. Topic titles link to
+the lecture slides. \R marks required readings and \Opt marks optional readings.
+
+\newcommand{\spart}[1]{\rowcolor{partbg}\multicolumn{4}{@{\hspace{4pt}}l}{\rule{0pt}{11pt}\bfseries\color{burnt}#1}\\*}
+\newcommand{\noclass}[3]{\rowcolor{nobg}#1 & \multicolumn{2}{l}{\emph{#2}} & #3 \\}
+\newcommand{\rowsep}{\arrayrulecolor{black!18}\hline\arrayrulecolor{black}}
+
+\small
+\renewcommand{\arraystretch}{1.3}
+\begin{longtable}{@{\hspace{4pt}}>{\raggedright}p{0.62in} >{\raggedright}p{1.95in} >{\raggedright}p{1.85in} >{\raggedright\arraybackslash}p{1.6in}}
+\toprule
+\textbf{Date} & \textbf{Topic} & \textbf{Readings} & \textbf{Milestones} \\
+\midrule
+\endfirsthead
+\toprule
+\textbf{Date} & \textbf{Topic} & \textbf{Readings} & \textbf{Milestones} \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+
+\spart{Part 0: Foundations}
+Tue 08/25 & \href{https://utexas-my.sharepoint.com/:p:/g/personal/kd22637_eid_utexas_edu/IQB17wpeNGjkRpjS6OMrWVOhAYy4T6bpUjbnDRwYQjYT3RM?e=88YIb2}{Introduction and overview} & \R\paper{HowToRead}{HowToRead} & \href{https://forms.gle/bW756Js9PtS1mbHa7}{Fill out the survey} (by Fri 08/28) \\ \rowsep
+Thu 08/27 & \href{https://utexas-my.sharepoint.com/:p:/g/personal/kd22637_eid_utexas_edu/IQBbrYRbnNYrRYWORoJ6U556Ac7efh5bj9bH1tBhMJXXVmM?e=xDrDEm}{Design principles} & \R\paper{DesignPhilosophy}{DesignPhilosophy}\newline \Opt\paper{ClarkCommentary}{ClarkCommentary} & \\ \rowsep
+Tue 09/01 & \href{https://utexas-my.sharepoint.com/:p:/g/personal/kd22637_eid_utexas_edu/IQDX__Oq_33HQ6LFWyMveLH3ATlxthGgyO45-cv9ztBHtH0?e=RPEaVP}{End-to-end argument} & \R\paper{EndToEnd}{EndToEnd}\newline \Opt\paper{NewEndToEnd}{NewEndToEnd} & \\ \rowsep
+
+\spart{Part 1: Network Control Plane}
+Thu 09/03 & \href{https://utexas-my.sharepoint.com/:p:/g/personal/kd22637_eid_utexas_edu/IQBSDDyMalG-Q7ESqpb_0wtAAUXK-qc30syyqu8wnqpDf4Y?e=Jpaccu}{Internet routing} & \R\paper{InferAS}{InferAS}\newline \Opt\paper{Gao01}{Gao01}\newline \Opt\paper{BGPstability98}{BGPstability98}\newline \Opt\paper{MITLecNote}{MITLecNote} & \\ \rowsep
+Tue 09/08 & \href{https://utexas-my.sharepoint.com/:p:/g/personal/kd22637_eid_utexas_edu/IQC7AADljLk5S4mD9-iTlnucAU4tnAdMpZ6qJVWFznlROVs?e=qdJeYX}{Software-defined networking} & \R\paper{Ethane}{Ethane}\newline \R\paper{OpenFlow}{OpenFlow}\newline \Opt\href{https://youtu.be/YHeyuD89n1Y?si=4VpmTS1cD53fwoZq}{ShenkerTalk}\newline \Opt\paper{Orion}{Orion} & \\ \rowsep
+Thu 09/10 & \href{https://utexas-my.sharepoint.com/:p:/g/personal/kd22637_eid_utexas_edu/IQCffDhIXaDTSoMSK7nchLi5ASbBy60zP5vWp0t2-ko1CDU?e=PHZvta}{Network virtualization} & \R\paper{NVP}{NVP}\newline \R\paper{Andromeda}{Andromeda} & \\ \rowsep
+
+\spart{Part 2: Network Data Plane}
+Tue 09/15 & \href{https://utexas-my.sharepoint.com/:p:/g/personal/kd22637_eid_utexas_edu/IQBtRZcttcK_R6DE51yyRitIATpLIYxRZueO0GDTJjuURzg?e=nmfuRT}{Router design} & \R\paper{McKeown97}{McKeown97}\newline \Opt\href{https://youtu.be/pRJZE0C77SQ?si=RINcwe6SHF-Mqu_E}{ASICforNetEng} & \\ \rowsep
+Thu 09/17 & \href{https://utexas-my.sharepoint.com/:p:/g/personal/kd22637_eid_utexas_edu/IQBA5pajqPnPSZqG2icxNZveARNq2Tz4E9E4QpRwCUJ4wYQ?e=WpFajI}{Software routers} & \R\paper{Click}{Click}\newline \R\paper{RouteBricks}{RouteBricks} & \\ \rowsep
+Tue 09/22 & \href{https://utexas-my.sharepoint.com/:p:/g/personal/kd22637_eid_utexas_edu/IQAiX7OMyP0gR4G8q7XGH1vMAUzDP9j9zbaOU82SkLNr5ZY?e=6tvWS2}{Middleboxes} & \R\paper{CoMb}{CoMb}\newline \R\paper{APLOMB}{APLOMB} & \\ \rowsep
+Thu 09/24 & \href{https://utexas-my.sharepoint.com/:p:/g/personal/kd22637_eid_utexas_edu/IQDVbBVuPw-WRaMDPAVdKn6lAUtk7Wtscptis5BfCCY904c?e=N4xqQV}{Programmable routers} & \R\paper{RMT}{RMT}\newline \R\paper{NetCache}{NetCache}\newline \Opt\paper{P4}{P4} & Submit project proposal on Canvas (by Fri 09/25) \\ \rowsep
+
+\spart{Part 3: Host Networking}
+Tue 09/29 & \href{https://utexas-my.sharepoint.com/:p:/g/personal/kd22637_eid_utexas_edu/IQDSyTnzpUdJSobPIqfRe-rpAeXYMSQJUweuUhixGygYWSQ?e=NtjtUf}{Host network stack basics} & \R\paper{UnderstandOverheads}{UnderstandOverheads} & \\ \rowsep
+Thu 10/01 & \href{https://utexas-my.sharepoint.com/:p:/g/personal/kd22637_eid_utexas_edu/IQBUbNU_G77sQbYu1VrLD00CAZCm7m3jBqJRhmGgTIX6dPA?e=9UhRTS}{Guest lecture: SmartNIC}\newline (Mario Baldi, NVIDIA) & \R\paper{AccelNet}{AccelNet} & \\ \rowsep
+Tue 10/06 & \href{https://utexas-my.sharepoint.com/:p:/g/personal/kd22637_eid_utexas_edu/IQD0DdhX9thLQZ1v60R4SauaAaw0jSSGthDR4JrxpPyMglU?e=XqKJ3s}{Kernel-bypass networking} & \R\paper{IX}{IX}\newline \R\paper{Arrakis}{Arrakis} & \\ \rowsep
+Thu 10/08 & \href{https://utexas-my.sharepoint.com/:p:/g/personal/kd22637_eid_utexas_edu/IQBccN0kuhB-Sovaa_HTnbsyAeju5_Ivx--2wqJkoQbNIdQ?e=DInO1J}{RDMA} & \R\paper{RoCEatScale}{RoCE at scale}\newline \R\paper{HERD}{HERD} & \\ \rowsep
+\noclass{Tue 10/13}{\textbf{Midterm}}{} \rowsep
+\noclass{Thu 10/15}{No class (working on projects)}{} \rowsep
+
+\spart{Part 4: Datacenter Networks}
+Tue 10/20 & \href{https://utexas-my.sharepoint.com/:p:/g/personal/kd22637_eid_utexas_edu/IQAzpTPyjo60S5zdsaFwcwu_ARu2uAVjIS-I4cuFsAHorC4?e=nFsQ1f}{Datacenter fabrics} & \R\paper{FatTree}{FatTree}\newline \Opt\paper{VL2}{VL2} & \\ \rowsep
+Thu 10/22 & \href{https://utexas-my.sharepoint.com/:p:/g/personal/kd22637_eid_utexas_edu/IQAyCYDTeteGRalNKAhdxaUpAQ7uGVpv3jl8jthx5KQI0nw?e=s4Lcbv}{Load balancing} & \R\paper{CONGA}{CONGA}\newline \Opt\paper{LetFlow}{LetFlow} & \\ \rowsep
+Tue 10/27 & \href{https://utexas-my.sharepoint.com/:p:/g/personal/kd22637_eid_utexas_edu/IQDsxZPmcUC5TLlp0otqGXtqAbCJL5e_sLvpFbyVG6b_iAA?e=Lu7DQa}{Datacenter transport} & \R\paper{DCTCP}{DCTCP}\newline \Opt\paper{NDP}{NDP} & \\ \rowsep
+Thu 10/29 & \href{https://utexas-my.sharepoint.com/:p:/g/personal/kd22637_eid_utexas_edu/IQAWdI9jZCiWQrsa2T9Nlnw8AYqGPRLKVu8xzaISEeEvY8c?e=jqgubp}{Emerging interconnects} & \R\paper{InfiniteHBD}{InfiniteHBD}\newline \Opt\paper{Pond}{Pond}\newline \Opt\paper{IntroCXL}{IntroCXL} & Project checkpoint meeting (Fri 10/30) \\ \rowsep
+
+\spart{Part 5: Networking for AI Systems}
+Tue 11/03 & \href{https://utexas-my.sharepoint.com/:p:/g/personal/kd22637_eid_utexas_edu/IQCz9I5NQzpwTanXJb6K8f3yAdB9Dku8RtY4rUERH4F4Vcs?e=kLlnnS}{AI datacenter topology \& fabrics} & \R\paper{HPN}{HPN}\newline \Opt\paper{TopoOpt}{TopoOpt} & \\ \rowsep
+Thu 11/05 & \href{https://utexas-my.sharepoint.com/:p:/g/personal/kd22637_eid_utexas_edu/IQBG36gnl1DvSKmvEl-30h5pAZoey1vchFAv9XZKiQEg1vk?e=ESIcAY}{Collective communication} & \R\paper{TE-CCL}{TE-CCL}\newline \Opt\paper{MSCCL++}{MSCCL++} & \\ \rowsep
+Tue 11/10 & \href{https://utexas-my.sharepoint.com/:p:/g/personal/kd22637_eid_utexas_edu/IQCXD5jqBdBMSKSfO5x9Tpj7AYaPcMOiD4Ak0fYwb9t8MKw?e=kPprQH}{Transport for AI clusters (1)} & \R\paper{MetaRoCE}{MetaRoCE} & \\ \rowsep
+Thu 11/12 & Transport for AI clusters (2) & \R\paper{MRC}{MRC} & \\ \rowsep
+
+\spart{Part 6: AI for Networking}
+Tue 11/17 & Learned congestion control & \R\paper{Orca}{Orca}\newline \Opt\paper{Remy}{Remy} & \\ \rowsep
+Thu 11/19 & Learning from the network & \R\paper{Fugu}{Fugu}\newline \R\paper{CausalSim}{CausalSim}\newline \Opt\paper{Zoom2Net}{Zoom2Net}\newline \Opt\paper{Unum}{Unum} & \\ \rowsep
+\noclass{Tue 11/24}{No class (Thanksgiving)}{} \rowsep
+\noclass{Thu 11/26}{No class (Thanksgiving)}{} \rowsep
+
+\spart{Final}
+\noclass{Tue 12/01}{\textbf{Project presentations}}{} \rowsep
+\noclass{Thu 12/03}{\textbf{Project presentations}}{Submit report and slides on Canvas (by Fri 12/04)}
+\end{longtable}
+
+\end{document}
