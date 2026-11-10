@@ -51,7 +51,7 @@ computer networks or networked systems, culminating in a final report and presen
 ---
 
 - **Unique number:** 55735
-- **Time:** Tuesday & Thursday 9:30 AM - 11:00 AM
+- **Time:** Tuesday & Thursday 9:30 AM - 10:45 AM
 - **Location:** GDC 6.202
 - **Discussion:** [Ed discussion](https://edstem.org/us/courses/100553/){:target="\_blank"}
 
