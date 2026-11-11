@@ -316,7 +316,7 @@
     <strong>Transport for AI clusters (2)</strong>
   readings:
     - <a href="https://utadvnetworks.github.io/papers/MRC.pdf">[R]MRC</a>
-    - <a href="https://utadvnetworks.github.io/papers/MetaRoCE-Spec.pdf">[O]MetaRoCE-Spec</a>
+    - <a href="https://utadvnetworks.github.io/papers/MetaRoCE-Spec-1.0.pdf">[O]MetaRoCE-Spec</a>
   presenters:
     - Si Ung
 
