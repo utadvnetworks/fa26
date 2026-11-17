@@ -319,6 +319,9 @@
     - <a href="https://utadvnetworks.github.io/papers/MetaRoCE-Spec-1.0.pdf">[O]MetaRoCE-Spec</a>
   presenters:
     - Si Ung
+  slides:
+    discussions:
+       - https://docs.google.com/presentation/d/1LL0fHMrD8x_KipJ69HS90n0enQk1CC5XjXRNw_2szFg/edit?slide=id.p#slide=id.p
 
 - title: "Part 6: AI for Networking"
 
