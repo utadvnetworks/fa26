@@ -330,7 +330,9 @@
     - <a href="https://utadvnetworks.github.io/papers/Remy.pdf">[O]Remy</a>
   presenters:
     - Jane
-
+  slides:
+    lecture: https://utexas-my.sharepoint.com/:p:/g/personal/kd22637_eid_utexas_edu/IQB4bNxMY8OPQbKG8la3K5CqAXVEVHYKDbHHwSI7qt3Ju9o?e=V8QhTJ
+  
 - date: Th 11/19
   title: >
     <strong>Learning from the Network</strong>
