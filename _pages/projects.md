@@ -76,7 +76,7 @@ Each project team is required to submit a final report and give a presentation a
 The final report should be up to **5 pages long**, excluding references and acknowledgments. Research-track reports should present the question, related work, approach, and evaluation. Engineering-track reports should document the need, comparison with existing tools, design and implementation, testing, evaluation, and lessons learned. Engineering teams must also provide a link to the open-source repository and give a working demonstration during the final presentation.
 
 ### Disclosure for generative AI
-If you used generative AI tools (such as ChatGPT or Claude) for any part of the project, name the tools and briefly explain where and how you used them in the report's Acknowledgments section.
+If you used generative AI tools (such as ChatGPT or Claude) for any part of the project, name the tools and briefly explain where and how you used them and how you reviewed their output. Include this disclosure in the report's Acknowledgments section.
 
 
 ---
@@ -85,5 +85,5 @@ If you used generative AI tools (such as ChatGPT or Claude) for any part of the 
 
 - Proposal (2 pages): Sep 25.
 - In-class project presentation: Dec 1 and 3.
-- Final report (6 pages): Dec 4.
+- Final report (up to 5 pages): Dec 4.
 - Please use the ACM HotNets [Latex template](https://conferences.sigcomm.org/hotnets/2026/cfp.html) for the proposal and final report.
