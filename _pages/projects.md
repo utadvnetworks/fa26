@@ -70,10 +70,14 @@ Each project team is required to schedule a checkpoint meeting with the instruct
 
 ### Final report and presentation
 
-Each project team is required to submit a final report and give a presentation at the end of the semester.
-The final report should be 6 pages long. Research-track reports should present the question, related work, approach, and evaluation. Engineering-track reports should document the need, comparison with existing tools, design and implementation, testing, evaluation, and lessons learned. Engineering teams must also provide a link to the open-source repository and give a working demonstration during the final presentation.
-
 Please use the ACM HotNets [Latex template](https://conferences.sigcomm.org/hotnets/2026/cfp.html) for the final report.
+
+Each project team is required to submit a final report and give a presentation at the end of the semester.
+The final report should be up to **5 pages long**, excluding references and acknowledgments. Research-track reports should present the question, related work, approach, and evaluation. Engineering-track reports should document the need, comparison with existing tools, design and implementation, testing, evaluation, and lessons learned. Engineering teams must also provide a link to the open-source repository and give a working demonstration during the final presentation.
+
+### Disclosure for generative AI
+If you used generative AI tools (such as ChatGPT or Claude) for any part of the project, name the tools and briefly explain where and how you used them in the report's Acknowledgments section.
+
 
 ---
 
