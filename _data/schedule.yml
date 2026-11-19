@@ -338,7 +338,7 @@
   
 - date: Th 11/19
   title: >
-    <strong>Learning from the Network</strong>
+    <strong>Applying Learning to Real-World Network</strong>
   readings:
     - <a href="https://utadvnetworks.github.io/papers/Fugu.pdf">[R]Fugu</a>
     - <a href="https://utadvnetworks.github.io/papers/CausalSim.pdf">[R]CausalSim</a>
@@ -346,6 +346,8 @@
     - <a href="https://utadvnetworks.github.io/papers/Unum.pdf">[O]Unum</a>
   presenters:
     - Jane
+  slides:
+    lecture: https://utexas-my.sharepoint.com/:p:/g/personal/kd22637_eid_utexas_edu/IQDEEX_9CbHWSK2tCItG38iyAReHTpQuUyzQB7cUjJLQ2AA?e=Zanr64
 
 - date: T 11/24
   quiz: >
